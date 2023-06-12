@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
         
     }
 
@@ -28,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func alertCheck() {
-        let alert = UIAlertController(title: "Ошибка", message: "Введите верное имя", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Ошибка", message: "Неверный логин/пароль", preferredStyle: .alert)
         let action1 = UIAlertAction(title: "OK", style: .default)
         alert.addAction(action1)
         self.present(alert, animated: true)
